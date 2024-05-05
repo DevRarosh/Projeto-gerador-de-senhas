@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Gerador de Senhas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>Gerador de Senhas </h2>
+    <div class="wrapper">
+      <div class="input-box">
+        <input type="text" disabled>
+        <span class="symbol-mateirial"></span>
+
+
+
+      </div>
+      <div class="indicador-de-senha">
+        <div class="tamanho-da-senha">
+          <div class="details">
+            <label class="">Tamanho da Senha</label>
+            <span></span>
+          </div>
+          <input type="range" min="1" max="30" value="15" step="1">
+
+        </div>
+        <div class="passwordsettings" <label class="Caracteres""">Caracteres usados:</label>
+          <ul class="options">
+            <li class="option">
+              <input type="checkbox" id="minusculo" checked>
+              <label for="minusculo">Minúsculo (a-z)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="maiusculo" checked>
+              <label for="minusculo">Maiúsculo (A-Z)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="numeros" checked>
+              <label for="minusculo">Numeros (0-9)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="especial" checked>
+              <label for="minusculo">Caracteres Especiais</label>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+        <button class="buttonsenha">Gerar Senha</button>
+    </div>
+  </div>
+
+
+
+
+  <link rel="stylesheet" href="script.js">
+</body>
+
+</html>
