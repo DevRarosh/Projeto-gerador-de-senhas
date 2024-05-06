@@ -13,4 +13,151 @@ body {
   background: #474787;
 
 }
+.container {
+  width: 450px;
+  background:#ECECEC ;
+  border-radius: 8px;
+-webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+-moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+}
+
+.container h2 {
+  font-weight: 600;
+  font-size: 1.31rm;
+  padding: 1rem 1.75rem;
+  border-bottom: 1px solid #d4dbe5;
+}
+
+.wrapper {
+  margin: 1.25rem 1.75rem;
+}
+
+.wrapper .input-box {
+  position: relative;
+}
+.input-box input {
+  width: 100%;
+  height: 50px;
+  color: #000;
+  background: none;
+  font-size: 1.06;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 1.4px;
+  border: 1px solid #aaa;
+  padding: 0 2.85rem 0 1rem;
+
+}
+
+.input-box span {
+  position: absolute;
+  right: 13px;
+  cursor:painter;
+  line-height: 53px;
+  color: #707070;
+}
+
+.input-box span:hover{
+  color: #474787
+}
+
+.wrapper .indicador-de-senha{
+  width: 100%;
+  height: 4px;
+  position:relative;
+  margin-top: 0.75rem;
+  border-radius:25px;
+}
+
+.indicador-de-senha::before{
+  position:absolute;
+  content:"";
+  height: 100%;
+  width: 50%;
+  border-radius: inherit;
+  transition: width 0.3s ease;
+}
+.indicador-de-senha#weak::before{
+  width: 20%;
+  background: #e64a4a;
+}
+.indicador-de-senha#medium::before{
+  width: 20%;
+  background: #f1c80b;
+}
+.indicador-de-senha#strong::before{
+  width: 20%;
+  background: #43A043;
+}
+.wrapper .tamanho-da-senha {
+  margin: 1.53rem 0 1.25rem;
+}
+
+.tamanho-da-senha .details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tamanho-da-senha input {
+  width: 100%;
+  height: 5px;
+}
+
+.passwordsettings .options {
+  display: flex;
+  list-style:none;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.passwordsettings .options .option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: calc(100% / 2);
+}
+.options .option:first-child{
+  pointer-events: none;
+}
+
+.options .option:first-child input{
+  opacity: 0.7;
+}
+.options .option input{
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.options .option label{
+  cursor: pointer;
+  color: #4f4f4f;
+  padding-left: 0.63rem;
+}
+
+.wrapper .buttonsenha {
+  width: 100%;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background:#474787; 
+  font-size: 1.06rem;
+  padding: 0.94rem 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 0.94rem 0 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
