@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Gerador de Senhas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Gerador de Senhas </h2>
+    <div class="wrapper">
+      <div class="input-box">
+        <input class="senhabox" id="senhabox" type="text" value="" disabled>
+        <button id="copy" type="button" class="material-symbols-outlined" >
+          content_copy
+        </button>
+      </div>
+      <div class="boxindicador">
+        <div class="indicador-de-senha"></div>
+      </div>
+      <div class="tamanho-da-senha">
+        <div class="details">
+          <label class="name">Tamanho da Senha</label>
+          <span class="contador" id="charCount">15</span>
+          <span></span>
+        </div>
+        <input  id="size" type="range" min="4" max="30" value="15" step="1">
+
+      </div>
+      <div class="passwordsettings" <label class="Caracteres""">Caracteres usados:</label>
+        <ul class="options">
+          <li class="option">
+            <input type="checkbox" id="minusculo" >
+            <label for="minusculo">Minúsculo (a-z)</label>
+          </li>
+          <li class="option">
+            <input type="checkbox" id="maiusculo" >
+            <label for="maiusculo">Maiúsculo (A-Z)</label>
+          </li>
+          <li class="option">
+            <input type="checkbox" id="numeros" >
+            <label for="numeros">Números (0-9)</label>
+          </li>
+          <li class="option">
+            <input type="checkbox" id="especial" >
+            <label for="especial">Caracteres Especiais</label>
+          </li>
+        </ul>
+      </div>
+
+      <button type="button" id="buttongera" class="buttonsenha">Gerar Senha</button>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
