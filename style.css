@@ -58,6 +58,7 @@ box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
   color: #707070;
   background: none;
   border: none;
+  top: -0px;
 }
 
 .input-box .material-symbols-outlined:hover{
@@ -116,7 +117,6 @@ box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
 
 .tamanho-da-senha input {
   width: 100%;
-  height: 5px;
 }
 
 .passwordsettings .options {
@@ -167,4 +167,12 @@ box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
 }
 
 
+
+/* Oculta o botão em dispositivos móveis com largura de tela menor ou igual a 768 pixels */
+@media (max-width: 768px) {
+  #copy {
+    display: none;
+  }
+}
+ 
 

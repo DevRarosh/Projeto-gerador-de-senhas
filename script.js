@@ -44,7 +44,7 @@ function generatePassword(size, charTypes) {
 function mensagem(text, background) {
   Toastify({
     text: text,
-    duration: 2000,
+    duration: 3000,
     style: {
       background: background,
       boxShadow: 'none',
@@ -115,5 +115,26 @@ document.getElementById('copy').addEventListener('click', function () {
   navigator.clipboard.writeText(document.querySelector('#senhabox').value)
   mensagem('Senha copiada com sucesso!!','#84cc16');
   return;
+}); 
+
+
+
+window.addEventListener('resize', function() {
+  var button = document.getElementById('copy');
+  if (window.innerWidth <= 768) {
+    button.style.display = 'none'; // Oculta o botão em dispositivos móveis
+  } else {
+    button.style.display = 'block'; // Exibe o botão em outros dispositivos
+  }
+});
+
+// Verificar a largura da tela no carregamento da página
+window.addEventListener('load', function() {
+  var button = document.getElementById('copy');
+  if (window.innerWidth <= 768) {
+    button.style.display = 'none'; // Oculta o botão em dispositivos móveis
+  } else {
+    button.style.display = 'block'; // Exibe o botão em outros dispositivos
+  }
 });
 
