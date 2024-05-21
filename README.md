@@ -40,7 +40,7 @@ Este projeto é um gerador de senhas aleatórias que permite aos usuários selec
     cd projeto-gerador-de-senhas
     ```
 
-##Uso Online
+## Uso Online
 
 Você pode usar o gerador de senhas diretamente online através do link:
 
