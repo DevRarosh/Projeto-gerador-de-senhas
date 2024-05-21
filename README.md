@@ -99,10 +99,10 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ##  Contato
 
-[@Ramon Brito](www.linkedin.com/in/ramon-brito-439975279) - ramonferreira@aluno.uniateneu.edu.br
+[@Ramon Brito](https://www.linkedin.com/in/ramon-brito-439975279/) - ramonferreira@aluno.uniateneu.edu.br
 
 Link do Projeto: [Gerador de Senhas](https://github.com/DevRarosh/Projeto-gerador-de-senhas)
 
 ---
 
-Feito com ❤️ por [Ramon Brito](https://github.com/DevRarosh)
+Feito por [Ramon Brito](https://github.com/DevRarosh)
