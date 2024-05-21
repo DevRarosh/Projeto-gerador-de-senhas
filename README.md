@@ -6,7 +6,7 @@ Bem-vindo ao **Gerador de Senhas**! Este projeto permite que você crie senhas s
 ![Gerador de Senhas](images-preview/image1.jpeg)
 
 
-##  Índice
+##Índice
 
 - [Introdução](#-introdução)
 - [Requisitos](#-requisitos)
@@ -19,16 +19,16 @@ Bem-vindo ao **Gerador de Senhas**! Este projeto permite que você crie senhas s
 - [Licença](#-licença)
 - [Contato](#-contato)
 
-##  Introdução
+##Introdução
 
 Este projeto é um gerador de senhas aleatórias que permite aos usuários selecionar diferentes tipos de caracteres, incluindo letras maiúsculas, minúsculas, números e caracteres especiais. A interface é simples e fácil de usar. Além disso, o projeto é totalmente responsivo, garantindo uma experiência de uso excelente em dispositivos móveis e desktops.
 
-##  Requisitos
+##Requisitos
 
 - Navegador da Web moderno (Google Chrome, Mozilla Firefox, etc.)
 - [Node.js](https://nodejs.org/) (opcional, se você quiser configurar um servidor de desenvolvimento)
 
-##  Instalação
+##Instalação
 
 1. Clone o repositório para sua máquina local:
     ```sh
@@ -40,13 +40,13 @@ Este projeto é um gerador de senhas aleatórias que permite aos usuários selec
     cd projeto-gerador-de-senhas
     ```
 
-## Uso Online
+##Uso Online
 
 Você pode usar o gerador de senhas diretamente online através do link:
 
 [Gerador de Senhas Online](https://tinyurl.com/3sye8v66)
 
-##  Uso Local
+##Uso Local
 
 1. Abra o arquivo `index.html` em seu navegador para visualizar e usar o gerador de senhas.
 
@@ -62,9 +62,9 @@ Você pode usar o gerador de senhas diretamente online através do link:
 
 5. Clique no ícone de copiar para copiar a senha gerada para a área de transferência.
 
-##  Exemplos
+##Exemplos
 
-### Gerando uma senha com diferentes tipos de caracteres
+###Gerando uma senha com diferentes tipos de caracteres
 
 1. **Selecionar Caracteres:**
     ![Selecionar Caracteres](images-preview/image3.jpeg)
@@ -75,7 +75,7 @@ Você pode usar o gerador de senhas diretamente online através do link:
 3. **Gerar e Copiar Senha:**
     ![Gerar e Copiar Senha](images-preview/image6.jpeg)
 
-##  Tecnologias Utilizadas
+##Tecnologias Utilizadas
 
 - **HTML5**: Utilizado para a estruturação da página.
 - **CSS3**: Utilizado para o estilo da página e responsividade.
@@ -83,7 +83,7 @@ Você pode usar o gerador de senhas diretamente online através do link:
 - **Toastify JS**: Biblioteca para notificações e mensagens de toast.
 - **Google Fonts**: Utilizado para ícones (Material Symbols Outlined).
 
-##  Contribuindo
+##Contribuindo
 
 Contribuições são bem-vindas! Para contribuir:
 
@@ -93,11 +93,11 @@ Contribuições são bem-vindas! Para contribuir:
 4. Faça o push para a branch (`git push origin feature/AmazingFeature`).
 5. Abra um Pull Request.
 
-##  Licença
+##Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
-##  Contato
+##Contato
 
 [@Ramon Brito](https://www.linkedin.com/in/ramon-brito-439975279/) - ramonferreira@aluno.uniateneu.edu.br
 
