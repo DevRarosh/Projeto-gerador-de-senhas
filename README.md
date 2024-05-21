@@ -8,16 +8,16 @@ Bem-vindo ao **Gerador de Senhas**! Este projeto permite que você crie senhas s
 
 ##  Índice
 
-- [ Introdução](#-introdução)
-- [ Requisitos](#-requisitos)
-- [ Instalação](#-instalação)
-- [ Uso Online](#-uso-online)
-- [ Uso Local](#-uso-local)
-- [ Exemplos](#-exemplos)
-- [ Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [ Contribuindo](#-contribuindo)
-- [ Licença](#-licença)
-- [ Contato](#-contato)
+- [Introdução](#-introdução)
+- [Requisitos](#-requisitos)
+- [Instalação](#-instalação)
+- [Uso Online](#-uso-online)
+- [Uso Local](#-uso-local)
+- [Exemplos](#-exemplos)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Contribuindo](#-contribuindo)
+- [Licença](#-licença)
+- [Contato](#-contato)
 
 ##  Introdução
 
