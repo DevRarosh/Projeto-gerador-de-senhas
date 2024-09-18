@@ -44,7 +44,7 @@ Este projeto é um gerador de senhas aleatórias que permite aos usuários selec
 
 Você pode usar o gerador de senhas diretamente online através do link:
 
-[Gerador de Senhas Online]([https://projeto-gerador-de-senhas.netlify.app/])
+[Gerador de Senhas Online](https://projeto-gerador-de-senhas.netlify.app/)
 
 ## Uso Local
 
